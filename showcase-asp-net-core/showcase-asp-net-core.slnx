@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/ScratchPad/" />
+  <Folder Name="/ScratchPad/asp-net-core-7-in-action/">
+    <Project Path="ScratchPad/asp-net-core-7-in-action/Chapter_03/Chapter03.csproj" />
+    <Project Path="ScratchPad/asp-net-core-7-in-action/Chapter_04/Chapter04.csproj" />
+  </Folder>
+</Solution>
