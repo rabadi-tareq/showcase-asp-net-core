@@ -1,0 +1,20 @@
+@page "/"
+@{
+    ViewData["Title"] = "Home";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <h1>Chapter 05 Endpoints</h1>
+    <ul>
+        <li><a href="/throw-exception">/throw-exception</a> - throws an exception (handled by /error)</li>
+        <li><a href="/error">/error</a> - custom error handling page</li>
+        <li><a href="/return-not-found-with-body">/return-not-found-with-body</a> - 404 with a custom body</li>
+        <li><a href="/return-not-found">/return-not-found</a> - 404 with no body (status code pages)</li>
+    </ul>
+</body>
+</html>

@@ -1,7 +1,14 @@
 <Solution>
   <Folder Name="/ScratchPad/" />
   <Folder Name="/ScratchPad/asp-net-core-7-in-action/">
+    <Project Path="asp-net-core-in-action-library/asp-net-core-in-action-library.csproj" Id="d2376159-74f3-4fdf-b2c2-dc365ee0ea90" />
+    <Project Path="ScratchPad/asp-net-core-7-in-action/Chapter05/Chapter05.csproj" Id="396794e8-dbab-4c2a-92d5-a77d4985aa81" />
     <Project Path="ScratchPad/asp-net-core-7-in-action/Chapter_03/Chapter03.csproj" />
     <Project Path="ScratchPad/asp-net-core-7-in-action/Chapter_04/Chapter04.csproj" />
+  </Folder>
+  <Folder Name="/ScratchPad/asp-net-core-7-in-action/Chapter_05_Minimal_APIs/">
+    <Project Path="ScratchPad/asp-net-core-7-in-action/Chapter_05/ConfigureProblemDetailsGlobally/ConfigureProblemDetailsGlobally.csproj" />
+    <Project Path="ScratchPad/asp-net-core-7-in-action/Chapter_05/ScratchPad/ScratchPad.csproj" Id="cde6c233-6faf-444c-b2ff-0948f5bfea16" />
+    <Project Path="ScratchPad/asp-net-core-7-in-action/Chapter_05/SimpleFruitAPI/SimpleFruitAPI.csproj" Id="4769a494-2c20-4c8a-8c7e-ff7e84e39fbd" />
   </Folder>
 </Solution>

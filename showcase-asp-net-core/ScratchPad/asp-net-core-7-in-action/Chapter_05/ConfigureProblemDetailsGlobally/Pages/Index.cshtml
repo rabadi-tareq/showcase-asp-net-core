@@ -1,0 +1,32 @@
+@page "/"
+@{
+    ViewData["Title"] = "Home";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <h1>Configure Problem Details Globally - Endpoints</h1>
+    <ul>
+        <li><a href="/throw-exception">/throw-exception</a> - throws an unhandled exception (returned as problem details)</li>
+        <li><a href="/return-not-found-with-body">/return-not-found-with-body</a> - 404 with a custom body, won't be altered by the problem details services</li>
+        <li><a href="/return-not-found-with-no-body">/return-not-found-with-no-body</a> - 404 with no body (problem details via status code pages)</li>
+    </ul>
+
+    <h2>Technical Decisions</h2>
+    <ul>
+        <li><strong>Problem Details (RFC 7807):</strong> <code>AddProblemDetails()</code> is the single service that formats all error responses, so unhandled exceptions and bodiless 4xx/5xx status codes share one JSON shape.</li>
+        <li><strong>Global metadata in one place:</strong> <code>ProblemDetailsSetup</code> (<code>IConfigureOptions&lt;ProblemDetailsOptions&gt;</code>) only adds cross-cutting data: <code>Instance</code> (method and path), <code>traceId</code> and <code>occured_on</code>. It contains no exception mapping.</li>
+        <li><strong>IExceptionHandler chain (.NET 8+):</strong> each exception type has its own handler. A handler returns <code>false</code> when the exception is not its target, so the next one runs. This replaces a large switch/if-else inside <code>CustomizeProblemDetails</code>.</li>
+        <li><strong>Handler order matters:</strong> <code>DomainExceptionHandler</code> (400/404 business rule violations), then <code>TimeoutExceptionHandler</code> (503), then <code>GlobalCrashExceptionHandler</code> (500 catch-all). Registration order is defined in <code>AddApiExceptionHandlers()</code>.</li>
+        <li><strong>Domain exceptions:</strong> <code>DomainException</code> is the base type, with <code>InsufficientFundsException</code> and <code>EntityNotFoundException</code> mapped to specific status codes, titles and type URIs.</li>
+        <li><strong>Catch-all hides internals:</strong> <code>GlobalCrashExceptionHandler</code> logs the exception and returns the full exception details only in Development; otherwise a generic message.</li>
+        <li><strong>Primary constructors:</strong> handlers receive <code>IProblemDetailsService</code> (and logger/environment) through C# primary constructors; each handler sets the response status code explicitly and writes through <code>TryWriteAsync</code>.</li>
+        <li><strong>Middleware:</strong> <code>UseExceptionHandler()</code> invokes the handler chain, and <code>UseStatusCodePages()</code> turns empty error responses (such as a bodiless 404) into problem details. A 404 with a custom body is left untouched.</li>
+        <li><strong>Razor Pages home page:</strong> this page is served at <code>/</code> via <code>MapRazorPages()</code> and links to the minimal API endpoints above.</li>
+    </ul>
+</body>
+</html>

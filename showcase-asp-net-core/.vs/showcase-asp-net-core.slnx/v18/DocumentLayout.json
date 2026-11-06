@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tareq\\Documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16A846E3-0CB2-135E-7BE3-D832EF559524}|ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\ConfigureProblemDetailsGlobally.csproj|c:\\users\\tareq\\documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\scratchpad\\asp-net-core-7-in-action\\chapter_05\\configureproblemdetailsglobally\\infrastructure\\errorhandling\\globalcrashexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A846E3-0CB2-135E-7BE3-D832EF559524}|ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\ConfigureProblemDetailsGlobally.csproj|solutionrelative:scratchpad\\asp-net-core-7-in-action\\chapter_05\\configureproblemdetailsglobally\\infrastructure\\errorhandling\\globalcrashexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A846E3-0CB2-135E-7BE3-D832EF559524}|ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\ConfigureProblemDetailsGlobally.csproj|c:\\users\\tareq\\documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\scratchpad\\asp-net-core-7-in-action\\chapter_05\\configureproblemdetailsglobally\\infrastructure\\errorhandling\\exceptionhandlerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A846E3-0CB2-135E-7BE3-D832EF559524}|ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\ConfigureProblemDetailsGlobally.csproj|solutionrelative:scratchpad\\asp-net-core-7-in-action\\chapter_05\\configureproblemdetailsglobally\\infrastructure\\errorhandling\\exceptionhandlerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A846E3-0CB2-135E-7BE3-D832EF559524}|ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\ConfigureProblemDetailsGlobally.csproj|c:\\users\\tareq\\documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\scratchpad\\asp-net-core-7-in-action\\chapter_05\\configureproblemdetailsglobally\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16A846E3-0CB2-135E-7BE3-D832EF559524}|ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\ConfigureProblemDetailsGlobally.csproj|solutionrelative:scratchpad\\asp-net-core-7-in-action\\chapter_05\\configureproblemdetailsglobally\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16A846E3-0CB2-135E-7BE3-D832EF559524}|ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\ConfigureProblemDetailsGlobally.csproj|c:\\users\\tareq\\documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\scratchpad\\asp-net-core-7-in-action\\chapter_05\\configureproblemdetailsglobally\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16A846E3-0CB2-135E-7BE3-D832EF559524}|ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\ConfigureProblemDetailsGlobally.csproj|solutionrelative:scratchpad\\asp-net-core-7-in-action\\chapter_05\\configureproblemdetailsglobally\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tareq\\Documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Program.cs",
+              "RelativeDocumentMoniker": "ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Program.cs",
+              "ToolTip": "C:\\Users\\Tareq\\Documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Program.cs",
+              "RelativeToolTip": "ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T10:45:07.358Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalCrashExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Tareq\\Documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Infrastructure\\ErrorHandling\\GlobalCrashExceptionHandler.cs",
+              "RelativeDocumentMoniker": "ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Infrastructure\\ErrorHandling\\GlobalCrashExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Tareq\\Documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Infrastructure\\ErrorHandling\\GlobalCrashExceptionHandler.cs",
+              "RelativeToolTip": "ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Infrastructure\\ErrorHandling\\GlobalCrashExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T11:37:06.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionHandlerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Tareq\\Documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Infrastructure\\ErrorHandling\\ExceptionHandlerExtensions.cs",
+              "RelativeDocumentMoniker": "ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Infrastructure\\ErrorHandling\\ExceptionHandlerExtensions.cs",
+              "ToolTip": "C:\\Users\\Tareq\\Documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Infrastructure\\ErrorHandling\\ExceptionHandlerExtensions.cs",
+              "RelativeToolTip": "ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Infrastructure\\ErrorHandling\\ExceptionHandlerExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T11:37:00.53Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{543d4543-bb45-5b56-8c02-b06ad75836e1}"
@@ -22,6 +79,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cde3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tareq\\Documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tareq\\Documents\\dev\\showcase-asp-net-core\\showcase-asp-net-core\\ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Pages\\Index.cshtml",
+              "RelativeToolTip": "ScratchPad\\asp-net-core-7-in-action\\Chapter_05\\ConfigureProblemDetailsGlobally\\Pages\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-05T11:13:41.577Z",
+              "EditorCaption": ""
             }
           ]
         }

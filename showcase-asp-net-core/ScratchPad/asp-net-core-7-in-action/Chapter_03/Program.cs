@@ -1,5 +1,5 @@
 /*
- *Create a WebApplicationBuilder instance
+ * Create a WebApplicationBuilder instance
  * Register the required service and configuration with the WebApplicationBuilder instance
  * Call Build on the builder instance to create and instance of WebApplication
  * Create the Middleware pipeline
@@ -9,9 +9,7 @@
 
 // Import the namespace for HTTP logging functionality
 using Microsoft.AspNetCore.HttpLogging;
-using Microsoft.Extensions.Logging.Console;
 using Microsoft.Extensions.Logging.Debug;
-using Microsoft.Extensions.Logging.EventLog;
 
 // Create a WebApplicationBuilder instance with command-line arguments
 // This builder is used to configure services and the application pipeline

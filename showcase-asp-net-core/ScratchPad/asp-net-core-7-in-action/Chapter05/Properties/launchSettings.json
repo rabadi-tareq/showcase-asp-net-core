@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://chapter05.dev.localhost:5292",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Developmentd"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://chapter05.dev.localhost:7209;http://chapter05.dev.localhost:5292",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Developmentd"
+      }
+    }
+  }
+}
